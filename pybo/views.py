@@ -4,5 +4,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def index(request):
+def index(request):3/0
     return HttpResponse("안녕하세요 pybo에 오신것을 환영합니다.")
